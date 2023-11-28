@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/santa/static/css/main.efd43359.css",
+    "main.js": "/santa/static/js/main.23f5a63a.js",
+    "static/js/787.038318ec.chunk.js": "/santa/static/js/787.038318ec.chunk.js",
+    "static/media/aliana_1.png": "/santa/static/media/aliana_1.447379ae696e66859e81.png",
+    "static/media/snowflakes.png": "/santa/static/media/snowflakes.04103fed10cde0ea4d95.png",
+    "static/media/julie_1.png": "/santa/static/media/julie_1.eee7073e2169493ac85b.png",
+    "static/media/babu_1.png": "/santa/static/media/babu_1.3e48fdc92c68df639cab.png",
+    "static/media/paul_1.png": "/santa/static/media/paul_1.168edbd57d76fe4c855a.png",
+    "static/media/anca_1.png": "/santa/static/media/anca_1.16e6a3d1f108714d7995.png",
+    "static/media/melanie_1.png": "/santa/static/media/melanie_1.9f0de243e940c12dfc58.png",
+    "static/media/tree.png": "/santa/static/media/tree.a3288cf2aee680a612f7.png",
+    "static/media/didi_1.png": "/santa/static/media/didi_1.b4f7579256fdbb48730e.png",
+    "index.html": "/santa/index.html",
+    "main.efd43359.css.map": "/santa/static/css/main.efd43359.css.map",
+    "main.23f5a63a.js.map": "/santa/static/js/main.23f5a63a.js.map",
+    "787.038318ec.chunk.js.map": "/santa/static/js/787.038318ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efd43359.css",
+    "static/js/main.23f5a63a.js"
+  ]
+}
