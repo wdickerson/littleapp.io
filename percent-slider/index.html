@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Red Card</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                font-family: 'Tahoma', sans-serif;
+            }
+
+            .half {
+                width: 100vw;
+                height: 50vh;
+                line-height: 50vh;
+                font-size: 42px;
+                text-align: center;
+            }
+
+            .full {
+                position: fixed;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                display: none;
+            }
+
+            .red {
+                background-color: red;
+                color: darkred;
+            }
+
+            .yellow {
+                background-color: yellow;
+                color: darkkhaki;
+            }
+        </style>
+    </head>  
+    <body>
+        <input id="initial-value" type="number" value="68.28" />
+        <input id="percent-change-slider" type="range" value="-0.2" min="-5" max="5" step=".1"/>
+        <div id="percent-change-display">-0.2%</div>
+        <div id="final-value">68.14</div>
+
+
+
+    </body>
+    <script>
+
+        const initialValueInput = document.getElementById("initial-value");
+        const slider = document.getElementById("percent-change-slider");
+        const percentChangeDisplay = document.getElementById("percent-change-display");
+        const finalValueDisplay = document.getElementById("final-value");
+
+        slider.addEventListener('input', (e) => {
+            const originalValue = initialValueInput.value;
+            const percentChange = e.target.value;
+            const plus = percentChange > 0 ? '+' : '';
+            percentChangeDisplay.innerHTML = `${plus}${percentChange}%`;
+
+            const multiplier = 1 + (percentChange / 100);
+            const newValue = originalValue * multiplier;
+            finalValueDisplay.innerHTML = newValue.toFixed(2);
+            // console.log(e);
+        });
+
+    </script>
+</html>
