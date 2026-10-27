@@ -100,3 +100,15 @@ body {
     line-height: 150%;
     padding: 28px 0;
 }
+
+.FooterText {
+  padding: 6px;
+  color: var(--darkGray);
+  font-size: 14px;
+  text-align: center;
+}
+
+.FooterText a {
+  color: var(--darkGray);
+  margin-left: 6px;
+}
